@@ -1,0 +1,8 @@
+{
+  "name": "vue3-meta",
+  "private": true,
+  "description": "Meta package for JSON Forms Vue 3 development",
+  "devDependencies": {
+    "vue": "^3.2.26"
+  }
+}

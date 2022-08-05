@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "outDir": "./lib/esm",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules"],
+  "files": ["./src/index.ts"],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "generateCodeForLibraries": false,
+    "skipTemplateCodegen": true,
+    "enableIvy": false
+  }
+}
